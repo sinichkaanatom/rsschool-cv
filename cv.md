@@ -14,7 +14,7 @@ I want to learn Front-End Development in **RSSchool**!
 *Nothing yet…*
 ## **Education and courses:**
 1. Intro to IT (LeverX Group)
-1. Basics of software testing (QA Academy)
+2. Basics of software testing (QA Academy)
 3. Advanced software testing course with individual support (QA Academy)
 ## **Language:**
 English level - B1
