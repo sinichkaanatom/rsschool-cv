@@ -1,36 +1,109 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 20px;
-  }
+  font-family: 'Roboto', sans-serif;
+  background-color: #f2f2f2;
+  color: #333333;
+  margin: 0;
+}
 
-  h1 {
-    text-align: center;
-    margin-bottom: 20px;
-  }
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
 
-  h2 {
-    margin-top: 30px;
-  }
+h1, h2, h3 {
+  color: #555555;
+}
 
-  .section {
-    margin-bottom: 30px;
-  }
+a {
+  color: #555555;
+}
 
-  .section h3 {
-    margin-bottom: 10px;
-  }
+ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
 
-  .section ul {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-  }
+.section-wrapper {
+  margin-bottom: 30px;
+}
 
-  .section ul li {
-    margin-bottom: 5px;
-  }
+.section-wrapper:last-child {
+  margin-bottom: 0;
+}
 
-  .section ul li span {
-    font-weight: bold;
-  }
+.section-wrapper section {
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.section-wrapper section h2 {
+  margin-top: 0;
+}
+
+.parent {
+  display: flex;
+}
+
+.leftChild {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.rightChild {
+  flex: 1;
+}
+
+.education {
+  background-color: #dddddd;
+}
+
+.work-experience {
+  background-color: #dddddd;
+}
+
+.skills {
+  background-color: #dddddd;
+}
+
+.languages {
+  background-color: #dddddd;
+}
+
+.example-code {
+  background-color: #dddddd;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+pre {
+  background-color: #f9f9f9;
+  padding: 10px;
+  border-radius: 5px;
+  overflow-x: auto;
+}
+
+footer {
+  margin-top: 30px;
+  text-align: center;
+}
+
+footer p {
+  margin: 10px 0;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+footer img {
+  vertical-align: middle;
+  width: 40px;
+  height: 40px;
+}
